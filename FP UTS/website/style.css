@@ -58,3 +58,13 @@ body{
     background-color: whitesmoke;
     color: black;
   }
+
+  .masuk{
+    background-color: rgb(231, 227, 227);
+    margin-top: 100px;
+    margin-left: 500px;
+    margin-right: 600px;
+    padding: 20px;
+  }
+
+  
