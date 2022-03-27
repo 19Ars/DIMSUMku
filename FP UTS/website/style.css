@@ -1,9 +1,9 @@
 body{
-    background-color: grey;
+  background-color: rgba(250, 217, 175, 0.603); 
 }
 
 .menu{
-    background-color: rgba(250, 217, 175, 0.603);
+    background-color: rgba(206, 176, 138, 0.603);
     height: 100px;
     padding: 100px;
 }
@@ -17,7 +17,7 @@ body{
 
 .menu a{
     float: right;
-    color: #f2f2f2;
+    color: #000000;
     text-align: center;
     padding: 10px;
     text-decoration: none;
@@ -25,7 +25,7 @@ body{
   }
   
   .menu a:hover {
-    background-color: whitesmoke;
+    background-color: rgb(163, 163, 163);
     color: black;
   }
   
@@ -36,7 +36,7 @@ body{
   }
 
   .tampil{
-    background: rgb(182, 182, 182);
+    background: rgba(197, 174, 144, 0.603);
     height: 500px;
     padding: 10px 200px 200px 200px;
   }
@@ -63,4 +63,11 @@ body{
     padding: 20px;
   }
 
-  
+  .berita{
+    text-align: center;
+  }
+
+  .about{
+    background-color: rgba(206, 176, 138, 0.603);
+    padding: 20px;
+  }
