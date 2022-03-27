@@ -1,0 +1,12 @@
+.kepala {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    background-color: aquamarine;
+    padding: 10px 0px 10px 10px;
+}
+
+.judul {
+    font-size: 400%;
+    font-family: Geneva;
+}
