@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DIMSUM</title>
+    <link rel="stylesheet" href="coba.css">
+</head>
+
+<body>
+
+    <header>
+        <img class="logo" src="/FP UTS/logo fp uts.png" alt="">
+        <nav class="atas">
+            <ul>
+                <li><a id="up" class="active" href="awal.html">keluar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="tubuh">
+        <h1>
+            <center>EDITING BERITA TERKINI TERKAIT SEMBAKO</center>
+        </h1>
+        <hr>
+        <div class="form-berita">
+            <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                <div>
+                    <label>Judul Berita</label><label class="validation-error hide" id="judulberitaValidationError">Form ini harus di isi!</label>
+                    <input type="text" name="judulberita" id="judulberita">
+                </div>
+                <div>
+                    <label>Tanggal Publikasi</label>
+                    <input type="text" name="tglpublish" id="tglpublish">
+                </div>
+                <div>
+                    <label>Deskripsi Singkat</label>
+                    <input type="text" name="deskripsi" id="deskripsi">
+                </div>
+                <div>
+                    <label>Laman Terkait</label>
+                    <input type="text" name="laman" id="laman">
+                </div>
+                <div class="form-tambah">
+                    <input type="submit" value="Tambahkan">
+                </div>
+            </form>
+        </div>
+        <br/>
+        <div class="tabel-berita">
+            <table class="list" id="List-Berita">
+                <thead>
+                    <tr>
+                        <th>Judul Berita</th>
+                        <th>Tanggal Publikasi</th>
+                        <th>Deskripsi Singkat</th>
+                        <th>Laman Terkait</th>
+                        <th>Tindakan</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+        <script src="script1.js"></script>
+    </div>
+</body>
+
+</html>
