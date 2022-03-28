@@ -54,7 +54,11 @@ body {
 }
 
 .tabel {
+<<<<<<< HEAD
     background-color: rgb(245, 245, 97);
+=======
+    background-color: rgb(253, 253, 56);
+>>>>>>> d9f0c7f9c3651a76370c7c0d9f9dd2c92adb7042
     align-items: center;
     text-align: center;
     width: 100%;
